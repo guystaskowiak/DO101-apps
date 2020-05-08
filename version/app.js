@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 1 of the app.' + '\n';
+    response = 'Today is 8th May 2020' + '\n';
 
     //send the response to the client
     res.send(response);
